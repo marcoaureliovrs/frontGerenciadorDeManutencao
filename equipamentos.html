@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta information -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<!-- Title-->
+	<title>CAPLET | Admin HTML Themes</title>
+	<!-- Favicons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="assets/ico/favicon.ico">
+	<!-- CSS Stylesheet-->
+	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap/bootstrap-themes.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
+	<!-- Styleswitch if  you don't chang theme , you can delete -->
+	<link type="text/css" rel="alternate stylesheet" media="screen" title="style1" href="assets/css/styleTheme1.css" />
+	<link type="text/css" rel="alternate stylesheet" media="screen" title="style2" href="assets/css/styleTheme2.css" />
+	<link type="text/css" rel="alternate stylesheet" media="screen" title="style3" href="assets/css/styleTheme3.css" />
+	<link type="text/css" rel="alternate stylesheet" media="screen" title="style4" href="assets/css/styleTheme4.css" />
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="wrapper">		
+		<div id="header">
+			<div class="logo-area clearfix">
+				<span class="texto-cpm">HACKATON - BEASTS</span>
+			</div>			
+			<div class="tools-bar">
+				<ul class="nav navbar-nav nav-main-xs">
+					<li>
+						<a href="#" class="icon-toolsbar nav-mini">
+							<i class="fa fa-bars"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right tooltip-area">
+					<li class="hidden">
+						<a href="#menu-right" data-toggle="tooltip" title="Right Menu" data-container="body" data-placement="left">
+							<i class="fa fa-align-right"></i>
+						</a>
+					</li>
+					<li class="hidden-xs hidden-sm hidden">
+						<a href="#" class="h-seperate">Help</a>
+					</li>
+					<li>
+						<button class="btn btn-circle btn-header-search">
+							<i class="fa fa-search"></i>
+						</button>
+					</li>
+					<li>
+						<a href="#" class="nav-collapse avatar-header">
+							<img alt="" src="assets/img/diego.jpg" class="circle">
+							<span class="badge">3</span>
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+							<em>
+								<strong>Olá</strong>, Diego </em>
+							<i class="dropdown-icon fa fa-angle-down"></i>
+						</a>
+						<ul class="dropdown-menu pull-right icon-right arrow">
+							<li class="hidden">
+								<a href="#">
+									<i class="fa fa-user"></i> Profile</a>
+							</li>
+							<li class="hidden">
+								<a href="#">
+									<i class="fa fa-cog"></i> Setting </a>
+							</li>
+							<li class="hidden">
+								<a href="#">
+									<i class="fa fa-bookmark"></i> Bookmarks</a>
+							</li>
+							<li class="hidden">
+								<a href="#">
+									<i class="fa fa-money"></i> Make a Deposit</a>
+							</li>
+							<li class="divider hidden"></li>
+							<li>
+								<a href="login.html">
+									<i class="fa fa-sign-out"></i> Logout </a>
+							</li>
+						</ul>
+						<!-- //dropdown-menu-->
+					</li>
+					<li class="visible-lg hidden">
+						<a href="#" class="h-seperate fullscreen" data-toggle="tooltip" title="Full Screen" data-container="body" data-placement="left">
+							<i class="fa fa-expand"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- //tools-bar-->
+
+		</div>
+		<!-- //header-->
+		<!--
+				/////////////////////////////////////////////////////////////////////////
+				//////////     SLIDE LEFT CONTENT     //////////
+				//////////////////////////////////////////////////////////////////////
+				-->
+		<div id="nav">
+			<div id="nav-title">
+				<h3>
+					<strong>Olá</strong>, Diego</h3>
+			</div>
+			<!-- //nav-title-->
+			<div id="nav-scroll">
+				<div class="avatar-slide">
+					<div class="avatar-detail">
+						<p class="hidden">
+							<button class="btn btn-inverse btn-sm">
+								<i class="fa fa-pencil"></i> Edit Profile</button>
+						</p>
+						<p>
+							<a href="#">São Paulo, 3 de Dezembro de 2017</a>
+						</p>
+						<span>1 Agendada</span>
+						<span>2 Em andamento</span>
+					</div>
+					<!-- //avatar-detail-->
+
+				</div>
+				<!-- //avatar-slide-->
+
+
+				<div class="widget-collapse dark">
+					<header>
+						<a data-toggle="collapse" href="#collapseSummary">
+							<i class="collapse-caret fa fa-angle-up"></i> Manutenções</a>
+					</header>
+					<section class="collapse in" id="collapseSummary">
+						<div class="collapse-boby" style="padding:0">
+
+							<div class="widget-mini-chart align-xs-left">
+								<div class="pull-right">
+									<div class="sparkline mini-chart" data-type="bar" data-color="theme" data-bar-width="10" data-height="35">2,3,4,5,7,4,5</div>
+								</div>
+								<p>Esta semana (03/12 à 09/12)</p>
+								<h4>6</h4>
+							</div>
+							<!-- //widget-mini-chart -->
+
+							<div class="widget-mini-chart align-xs-right">
+								<div class="pull-left">
+									<div class="sparkline mini-chart" data-type="bar" data-color="warning" data-bar-width="4" data-height="45">2,3,7,5,4,6,6,3,2,3,7,5,4,6,6,2,3,7,5,4,6,6,3,2,3,7,5,4,6,6,3</div>
+								</div>
+								<p>Este mês</p>
+								<h4>15</h4>
+							</div>
+							<!-- //widget-mini-chart -->
+
+						</div>
+						<!-- //collapse-boby-->
+
+					</section>
+					<!-- //collapse-->
+				</div>
+				<!-- //widget-collapse-->
+				<div class="widget-collapse dark hidden">
+					<header>
+						<a data-toggle="collapse" href="#collapseTasks">
+							<i class="collapse-caret fa fa-angle-down"></i> (2) Minhas Tarefas </a>
+					</header>
+					<section class="collapse" id="collapseTasks">
+
+						<div class="collapse-boby">
+
+							<div class="widget-slider">
+								<p>Upload status</p>
+								<div class="progress progress-dark progress-xs tooltip-in">
+									<div class="progress-bar bg-darkorange" aria-valuetransitiongoal="75"></div>
+								</div>
+								<label class="progress-label">Master.zip 4 / 5 </label>
+								<!-- //progress-->
+
+								<div class="progress progress-dark progress-xs">
+									<div class="progress-bar bg-theme-inverse" aria-valuetransitiongoal="45"></div>
+								</div>
+								<label class="progress-label lasted">Profile 2 / 5 </label>
+								<!-- //progress-->
+
+							</div>
+							<!-- //widget-slider-->
+
+						</div>
+						<!-- //collapse-boby-->
+
+					</section>
+					<!-- //collapse-->
+				</div>
+				<!-- //widget-collapse-->
+
+
+
+				<div class="widget-collapse dark hidden">
+					<header>
+						<a data-toggle="collapse" href="#collapseSetting">
+							<i class="collapse-caret fa fa-angle-up"></i> Setting Option </a>
+					</header>
+					<section class="collapse in" id="collapseSetting">
+						<div class="collapse-boby" style="padding:0">
+
+							<ul class="widget-slide-setting">
+								<li>
+									<div class="ios-switch theme pull-right">
+										<div class="switch">
+											<input type="checkbox" name="option">
+										</div>
+									</div>
+									<label>Switch
+										<span>OFF</span>
+									</label>
+									<small>Lorem ipsum dolor sit amet</small>
+								</li>
+								<li>
+									<div class="ios-switch theme-inverse pull-right">
+										<div class="switch">
+											<input type="checkbox" name="option_1" checked>
+										</div>
+									</div>
+									<label>Switch
+										<span>ON</span>
+									</label>
+									<small>Lorem ipsum dolor sit amet</small>
+								</li>
+							</ul>
+							<!-- //widget-slide-setting-->
+
+						</div>
+						<!-- //collapse-boby-->
+
+					</section>
+					<!-- //collapse-->
+				</div>
+				<!-- //widget-collapse-->
+
+
+			</div>
+			<!-- //nav-scroller-->
+		</div>
+		<!-- //nav-->
+		<!--
+				/////////////////////////////////////////////////////////////////////////
+				//////////     TOP SEARCH CONTENT     ///////
+				//////////////////////////////////////////////////////////////////////
+				-->
+		<div class="widget-top-search">
+			<span class="icon">
+				<a href="#" class="close-header-search">
+					<i class="fa fa-times"></i>
+				</a>
+			</span>
+			<form id="top-search">
+				<h2>
+					<strong>Pesquisar</strong>
+				</h2>
+				<div class="input-group">
+					<input type="text" name="q" placeholder="Digite o que procura..." class="form-control" />
+					<span class="input-group-btn">
+						<button class="btn" type="button" title="With Sound">
+							<i class="fa fa-microphone"></i>
+						</button>
+						<button class="btn" type="button" title="Visual Keyboard">
+							<i class="fa fa-keyboard-o"></i>
+						</button>
+						<button class="btn" type="button" title="Advance Search">
+							<i class="fa fa-th"></i>
+						</button>
+					</span>
+				</div>
+			</form>
+		</div>
+		<!-- //widget-top-search-->
+		<!--
+				/////////////////////////////////////////////////////////////////////////
+				//////////     MAIN SHOW CONTENT     //////////
+				//////////////////////////////////////////////////////////////////////
+				-->
+		<div id="main">
+			<div id="content">
+
+				<div class="row">
+
+					<div class="col-lg-12">
+
+						<section class="panel">
+							<header class="panel-heading">
+								<h3 style="float: left; margin-bottom: 10px; margin-right: 10px">Lista de equipamentos </h3>
+								<button id="btn-modal" type="submit" class="btn btn-success hidden" data-toggle="modal" data-target="#md-full-width">
+									<i class="fa fa-plus"></i>
+								</button>
+								<button id="btn-registrar" type="submit" class="btn btn-success">
+									<i class="fa fa-plus"></i> Registrar Equipamento</button>
+								<br>
+								<br>
+								<form id="form-busca" role="form" class="form-inline">
+									<div class="form-group">
+										<label>Laboratório: </label>
+										<select id="laboratorios" class="form-control">
+										</select>
+									</div>
+									<div class="form-group pl-10">
+										<label> Unidade: </label>
+										<select id="unidades" class="form-control">
+										</select>
+									</div>
+									<div class="form-group pl-10">
+										<button type="submit" class="btn btn-info">Buscar</button>
+									</div>
+
+							</header>
+							<div id="resultado-busca" class="panel-body">
+
+								<div class="table-responsive">
+									<table id="agendadas" cellpadding="0" cellspacing="0" border="0" class="table table-bordered table-striped">
+										<thead>
+											<tr>
+												<th>Fornecedor</th>
+												<th>Cod. Equipamento</th>
+												<th>Nome Equipamento</th>
+												<th>Status</th>
+												<th width="10%">Ação</th>
+											</tr>
+										</thead>
+									</table>
+								</div>
+
+							</div>
+						</section>
+					</div>
+
+				</div>
+				<!-- //content > row-->
+
+			</div>
+			<!-- //content-->
+
+
+		</div>
+
+		<!--
+		/////////////////////////////////////////////////////////////////////
+		//////////     MODAL FULL WIDTH    //////////
+		//////////////////////////////////////////////////////////////////
+		-->
+		<div id="md-full-width" class="modal fade container" data-width="1024">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<i class="fa fa-times"></i>
+				</button>
+				<h4 class="modal-title">Detalhes da Manutenção</h4>
+			</div>
+			<!-- //modal-header-->
+			<div class="modal-body" style="background-color: #E5E9EC">
+				<div class="row">
+					<div class="col-md-3 pt-10">
+						Ticket:
+						<span id="sp-ticket">Delboni</span>
+						<br> Fornecedor:
+						<span id="sp-fornecedor">Delboni</span>
+						<br> Cod. Equipamento:
+						<span id="sp-cod-equ">Equipamento</span>
+						<br> Equipamento:
+						<span id="sp-equi">Delboni</span>
+						<br> Laboratório:
+						<span id="sp-lab">Unidade</span>
+						<br> Unidade:
+						<span id="sp-uni">Unidade</span>
+						<br> Tipo Manutenção:
+						<span id="sp-tipo-man">Preventiva</span>
+						<br> Inicio da manutenção:
+						<span id="sp-ini-man">01/12/2017</span>
+						<br> Fim da manutenção:
+						<span id="sp-fim-man">03/12/2017</span>
+						<br> Status:
+						<span id="sp-status">Agendada</span>
+						<br>
+						<br>
+
+						<h3>Ações</h3>
+						<hr>
+						<button id="btn-finalizar">Finalizar</button>
+						<br>
+						<br>
+						<div id="div-justificar" class="hidden">
+							<label>Laudo:</label>
+							<textarea id="txt-justificar" rows="8" cols="30"></textarea>
+							<button id="btn-nao-finalizar">Cancelar</button>
+							<button id="btn-finalizar-2">Finalizar</button>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="widget-timeline">
+							<ul>
+								<li class="history">
+									<span>
+										Agendado em: 03/12/2017
+									</span>
+								</li>
+								<li class="left">
+									<section>
+										<div class="mark bg-primary bg-gradient-blue" style="line-height: 246px;">
+											<i class=" fa fa-envelope-o"></i>
+										</div>
+										<div class="timeline-content">
+											<time>
+												<i class="fa fa-clock-o"></i>01/12/2017 09:18</time>
+											<h3>SMS</h3>
+											<p>25 pacientes notificados por SMS</p>
+										</div>
+									</section>
+								</li>
+								<li class="right">
+									<section>
+										<div class="mark bg-inverse" style="line-height: 246px;">
+											<i class="fa fa-gear"></i>
+										</div>
+										<div class="timeline-content">
+											<time>
+												<i class="fa fa-clock-o"></i>02/12/201 13:00</time>
+											<h3>Atendimento</h3>
+											<p>Atendimento iniciado</p>
+										</div>
+									</section>
+								</li>
+								<li class="right">
+									<section>
+										<div class="mark bg-inverse" style="line-height: 246px;">
+											<i class="fa fa-clock-o"></i>
+										</div>
+										<div class="timeline-content">
+											<time>
+												<i class="fa fa-clock-o"></i>02/12/201 17:00</time>
+											<h3>Reagendamento</h3>
+											<p>20 exames reagendados</p>
+										</div>
+									</section>
+								</li>
+								<li class="left">
+									<section>
+										<div class="mark bg-primary bg-gradient-blue" style="line-height: 246px;">
+											<i class=" fa fa-envelope-o"></i>
+										</div>
+										<div class="timeline-content">
+											<time>
+												<i class="fa fa-clock-o"></i>01/12/2017 09:18</time>
+											<h3>SMS</h3>
+											<p>20 pacientes notificados sobre novo agendamento</p>
+										</div>
+									</section>
+								</li>
+								<li class="right">
+									<section>
+										<div class="mark bg-primary bg-gradient-blue" style="line-height: 246px;">
+											<i class="fa fa-trophy"></i>
+										</div>
+										<div class="timeline-content">
+											<time>
+												<i class="fa fa-clock-o"></i>02/12/2017 14:18</time>
+											<h3>Finalizado</h3>
+											<p>Manutenção concluída</p>
+										</div>
+									</section>
+								</li>
+								<li class="highlight">
+									<section>
+										<time>
+											<i class="fa fa-clock-o"></i>02/12/2017 15:20</time>
+										<h3>Laudo</h3>
+										<p>Ajuste na rebimboca</p>
+									</section>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<!-- //modal-body-->
+			</div>		
+			<nav id="menu" data-search="close">
+				<ul>
+					<li>
+						<a href="index.html">
+							<i class="icon  fa fa-bar-chart-o"></i> Dashboard</a>
+					</li>
+					<li>
+						<a href="equipamentos.html">
+							<i class="icon  fa fa-desktop"></i> Equipamentos</a>
+					</li>
+					<li>
+						<a href="manutencoes.html">
+							<i class="icon  fa fa-briefcase"></i> Manutenções</a>
+					</li>
+					<li>
+						<a href="registrar-manutencao.html">
+							<i class="icon  fa fa-plus"></i> Registrar Manutenção</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- //nav left menu-->
+
+		</div>
+
+		<!-- Jquery Library -->
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.ui.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- Modernizr Library For HTML5 And CSS3 -->
+		<script type="text/javascript" src="assets/js/modernizr/modernizr.js"></script>
+		<script type="text/javascript" src="assets/plugins/mmenu/jquery.mmenu.js"></script>
+		<script type="text/javascript" src="assets/js/styleswitch.js"></script>
+		<!-- Library 10+ Form plugins-->
+		<script type="text/javascript" src="assets/plugins/form/form.js"></script>
+		<!-- Datetime plugins -->
+		<script type="text/javascript" src="assets/plugins/datetime/datetime.js"></script>
+		<!-- Library Chart-->
+		<script type="text/javascript" src="assets/plugins/chart/chart.js"></script>
+		<!-- Library  5+ plugins for bootstrap -->
+		<script type="text/javascript" src="assets/plugins/pluginsForBS/pluginsForBS.js"></script>
+		<!-- Library 10+ miscellaneous plugins -->
+		<script type="text/javascript" src="assets/plugins/miscellaneous/miscellaneous.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+		<!-- Library Themes Customize-->
+		<script type="text/javascript" src="assets/js/caplet.custom.js"></script>
+
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/equipamentos.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				equipamentos.init();
+			})		
+		</script>
+</body>
+
+</html>
